@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c2b480919e.js" crossorigin="anonymous"></script>
+    <style>
+       
+      
+        html,body
+        {
+           
+           display: flex;
+           flex-direction:row;
+           align-items: center;
+           justify-content: center;
+           background-image: linear-gradient(aqua,purple);
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 99.99%;
+           
+        }
+        .image
+        {
+            height: 550px;
+            width: 550px;
+        
+           
+           
+        }
+        .form
+        {
+            height: 550px;
+            width: 550px;
+            margin-left: 12px;
+            background-color: azure;
+            border-radius: 5px;
+            order: -1;
+            border-radius: 10px;
+        }
+        #imgg
+        {
+            height: 550px;
+            width: 550px;
+            border-radius: 6px;
+            border: none;
+            margin: 0px;
+            box-shadow: none;
+            transition: none;
+            margin-left: -12px;
+        }
+        .a
+        {
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black; */
+            margin-top: 10px;
+        }
+        m
+        {
+           font-size: 35px;
+           font-family:'Times New Roman', Times, serif; 
+           font-weight: bolder;
+           
+        }
+        .b
+        {
+            
+            
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .c
+        {
+            border:3px solid black;
+            height: 35px;
+            width: 400px;
+            border-radius: 15px;
+            font-weight: bolder;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+        i{
+            margin-right: 20px;
+            font-size: 28px;
+            margin-top: 8px;
+        } 
+        
+        .e
+        {
+           
+            margin-top: 25px;
+            font-weight: bolder;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        v
+        {
+            color:blue;
+            text-decoration: underline;
+        }
+       
+        .ab
+        {
+            
+            cursor: pointer;
+            margin-left: 190px;
+        }
+        .ab:hover
+        {
+            color: red;
+        }
+        .checkbox
+        {
+           cursor: pointer;
+           margin-left: 30px;
+           
+        }
+        button
+    {   border:1px solid black;
+        border-radius: 50px;
+        height:50px;
+        width:410px;
+        font-weight: 1000;
+        font-size: x-large;
+        color:azure;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.1s;
+        background-image: linear-gradient(aqua,black);
+    }
+    button:hover
+    { box-shadow: 0 0 10px rgb(64, 0, 255),
+        0 0 50px cyan, 0 0 50px cyan,
+        0 0 200px rgb(64, 0, 255), 0 0 200px rgb(64, 0, 255);
+        
+        height: 60px;
+        width:420px;
+        
+    }
+    
+     .f
+    {
+       
+        margin-top: 35px; 
+        display: flex;
+        justify-content: center;
+    }
+    .h
+    {
+        font-size: larger;
+        font-weight: bolder;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover:hover
+    {
+        cursor: pointer;
+        color: crimson;
+    }
+    .i
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: large;
+        
+    }
+    #eyeicon
+        {
+            
+            cursor: pointer;
+            margin-top: 8px;
+            font-size:25px;
+           
+        }
+        .q
+        {
+           
+            display: flex;
+            cursor: pointer;
+            /* align-items: center; */
+            height: 45px;
+            width:50px;
+            margin-left: -48px;
+            
+            
+        }
+   
+   
+        @media (max-width:1106px) and (min-width:914px) {
+            
+            .image
+            {
+                height: 450px;
+                width:450px;
+            }
+            .form
+            {
+                height: 450px;
+                width:450px;
+               
+            }
+            #imgg
+            {
+                height: 450px;
+                width:450px;
+            }
+            m
+            {
+                font-size:30px;
+            }
+            .c
+            {
+                height: 30px;
+                width: 330px;
+                font-size: 15px;
+            }
+            i
+            {
+                font-size: 30px;
+                margin-right: 15px;
+            }
+            .e
+            {
+                font-size: 14px;
+            }
+            .ab
+            {
+                margin-left: 170px;
+            }
+            button
+            {
+                height:40px;
+                 width:350px;
+            }
+            #eyeicon
+           {
+            font-size: 25px;
+            margin-top: 7px;
+            
+           }
+           
+        .q
+        {
+           margin-left: -48px;
+           height: 40px;
+           width:50px
+        }
+           
+        }
+
+        @media (max-width:914px) 
+        {
+            
+            
+            body
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .image
+            {
+                height: 40vh;
+                width:70vw;
+                order: -1;
+                
+            }
+            .form
+            {
+                margin-left: 0px;
+                width:70vw;
+                height: 48vh;
+                margin-top: -12px;
+            }
+            #imgg
+            {
+                height: 40vh;
+                width:70vw;
+                margin-left: 0px;
+            }
+            m
+            {
+                font-size: 6vw;
+
+            }
+            .a
+               {
+                  margin-top: 5px;
+            
+               }
+            .c
+            {
+                height: 3vh;
+                width: 50vw;
+                font-size: 1.5vh;
+                border:2.5px solid black;
+            }
+            i
+            {
+                font-size: 3vh;
+                margin-right:1.5vw;
+                margin-top: 3px;
+                
+
+            }
+            .ab
+            {
+                margin-left:24vw;
+            }
+            .e
+            {
+                font-size: 2.5vw;
+                margin-top: 2vw;
+            }
+            .checkbox
+            {
+                margin-left:3vw;
+            }
+            button
+            {
+                height: 3.2vh;
+                width: 50vw;
+                font-size:3vw;
+            }
+            button:hover
+            {
+                height:5vh;
+                width:60vw;
+            }
+            .f
+            {
+                margin-top: 3vw;
+            }
+            .h
+            {
+                font-size: 2.7vw;
+                margin-top: 2.5vh;
+            }
+            .i
+            {
+                font-size: 3vw;
+                margin-top: 3vh;
+            }
+            .b
+            {
+                margin-top: 5vw;
+            }
+            .e
+            {
+                margin-top: 5vw;
+            }
+            #eyeicon
+           {
+            font-size: 2vh;
+            margin-top:11px;
+           }
+          .q
+          {
+            margin-left: -5.3vw;
+            height:4vh;
+            width: 5.5vw;
+          }
+           
+         
+             
+        }
+        @media (max-width:716px) 
+        {
+            #eyeicon
+           {
+            font-size: 1.7vh;
+            margin-top: 11px;
+           }
+           .q
+          {
+            margin-left: -5.7vw;
+            width: 6vw;
+          } 
+           
+        }
+        @media(max-width:528px)
+        {
+            #eyeicon
+            {
+                margin-top: 2vw;
+            }
+            .q
+          {
+            margin-left: -9vw;
+            width: 8vw;
+          }
+        }
+        @media(max-width:430px)
+        {
+            #eyeicon
+            {
+                
+                margin-top: 1.05vh;                
+            }
+            .q
+          {
+            margin-left: -8vw;
+            width: 8vw;
+          }
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="image"><img src="freelancer3.jpg" alt=""id="imgg"></div>
+    <div class="form">
+        <form>
+            <div class="a"><m>REGISTER</m></div>
+            <div class="b"><i class="fa-solid fa-envelope"></i><input type="text" name="e-mail" maxlength="30" placeholder="E-mail"
+            class="c"></div>
+            <div class="b"><i class="fa-solid fa-user"></i><input type="text" name="username" maxlength="30" placeholder=" Username" class="c"></div>
+            <div class="b"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"><i class="fa-solid fa-eye-slash" id="eyeicon"></i></div></div>
+            <div class="e">By clicking on register you agree our <v> Terms and conditions </v></div>
+            <div class="f"><button ="submit">Register</div>
+            <div class="h">Already have an account?<a href="Login Authentication.html" target="_new" class="hover">Login</a></div>
+            
+            
+        </form>
+
+    </div>
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+let password = document.getElementById("password");
+
+eyeicon.addEventListener("click", function() 
+{
+    if (password.type === "password") {
+        password.type = "text";
+        eyeicon.classList.remove("fa-eye-slash");
+        eyeicon.classList.add("fa-eye");
+    } else {
+        password.type = "password";
+       
+        eyeicon.classList.remove("fa-eye");
+        eyeicon.classList.add("fa-eye-slash");
+    }
+})
+    </script>
+</body>
+</html>
+
+
+

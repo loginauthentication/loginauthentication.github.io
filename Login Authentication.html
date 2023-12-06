@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c2b480919e.js" crossorigin="anonymous"></script>
+    <style>
+       
+        *
+        {
+            box-sizing: border-box;
+        }
+        html,body
+        {
+           
+           display: flex;
+           flex-direction:row;
+           align-items: center;
+           justify-content: center;
+           background-image: linear-gradient(aqua,purple);
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 99.99%;
+           
+        }
+        .image
+        {
+            height: 550px;
+            width: 550px;
+        
+           
+           
+        }
+        .form
+        {
+            height: 550px;
+            width: 550px;
+            margin-left: -12px;
+            background-color: azure;
+            border-radius: 5px;
+        }
+        #imgg
+        {
+            height: 550px;
+            width: 550px;
+            border-radius: 10px;
+            border: none;
+            margin: 0px;
+            box-shadow: none;
+            transition: none;
+        }
+        .a
+        {
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black; */
+           
+        }
+        m
+        {
+           font-size: 35px;
+           font-family:'Times New Roman', Times, serif; 
+           font-weight: bolder;
+           
+        }
+        .b
+        {
+            
+            
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .c
+        {
+            border:3px solid black;
+            height: 45px;
+            width: 400px;
+            border-radius: 15px;
+            font-weight: bolder;
+            padding-left: 10px;
+            font-size: 20px;
+           
+        }
+        i{
+            margin-right: 20px;
+            margin-top:8px;
+            font-size: 28px;
+        } 
+        .d
+        {
+           
+          
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .e
+        {
+           
+            margin-top: 25px;
+            font-weight: bolder;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            
+            
+        }
+       
+        .ab
+        {
+            
+            cursor: pointer;
+            margin-left: 190px;
+        }
+        .ab:hover
+        {
+            color: red;
+        }
+        .checkbox
+        {
+           cursor: pointer;
+           margin-left: 30px;
+           
+        }
+        button
+    {   border:1px solid black;
+        border-radius: 50px;
+        height:40px;
+        width:400px;
+        font-weight: 1000;
+        font-size: x-large;
+        color:azure;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.1s;
+        background-image: linear-gradient(purple,black);
+    }
+    button:hover
+    { box-shadow: 0 0 10px rgb(64, 0, 255),
+        0 0 50px cyan, 0 0 50px cyan,
+        0 0 200px rgb(64, 0, 255), 0 0 200px rgb(64, 0, 255);
+        
+        height: 50px;
+        width:405px;
+        
+    }
+    
+     .f
+    {
+       
+        margin-top: 25px; 
+        display: flex;
+        justify-content: center;
+    }
+    .h
+    {
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover:hover
+    {
+        cursor: pointer;
+        color: crimson;
+    }
+    .i
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: large;
+        
+    }
+    .imggg{
+            border: 2px solid black;
+            border-radius: 105px;
+            height: 50px;
+            width: 50px;
+            /* opacity: 0.9; */
+            margin: 20px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            
+        }
+      
+        .imggg:hover{
+            box-shadow: 0 0 10px rgb(64, 0, 255),
+        0 0 50px cyan, 0 0 50px cyan,
+        0 0 200px rgb(64, 0, 255), 0 0 200px rgb(64, 0, 255);
+            height: 70px;
+            width: 70px;
+        }
+
+        .abc
+        {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        #eyeicon
+        {
+            
+            cursor: pointer;
+            margin-top: 8px;
+            font-size:25px;
+           
+        }
+        .q
+        {
+           
+            display: flex;
+            cursor: pointer;
+            /* align-items: center; */
+            height: 45px;
+            width:50px;
+            margin-left: -48px;
+            
+            
+        }
+         
+        @media (max-width:1106px) and (min-width:914px) {
+            
+            .image
+            {
+                height: 450px;
+                width:450px;
+            }
+            .form
+            {
+                height: 450px;
+                width:450px;
+               
+            }
+            #imgg
+            {
+                height: 450px;
+                width:450px;
+            }
+            m
+            {
+                font-size:30px;
+            }
+            .c
+            {
+                height: 40px;
+                width: 330px;
+                font-size: 15px;
+            }
+            i
+            {
+                font-size: 30px;
+                margin-right: 15px;
+                
+            }
+            .e
+            {
+                font-size: 15px;
+                
+            }
+            .ab
+            {
+                margin-left: 170px;
+            }
+            button
+            {
+                height:40px;
+                 width:350px;
+            }
+            .i
+            {
+                margin-top: 25px;
+            }
+            .imggg{
+                height:40px;
+                width: 40px;
+            }
+            .abc
+            {
+               margin-top: 10px;
+            }
+            #eyeicon
+           {
+            font-size: 25px;
+            margin-top: 7px;
+            
+           }
+           
+        .q
+        {
+           margin-left: -48px;
+           height: 40px;
+           width:50px
+        }
+        
+        
+    }
+
+        @media (max-width:914px) 
+        {
+            
+            
+            body
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .image
+            {
+                height: 40vh;
+                width:70vw;
+                
+            }
+            .form
+            {
+                margin-left: 0px;
+                width:70vw;
+                height: 48vh;
+                margin-top: -12px;
+            }
+            #imgg
+            {
+                height: 40vh;
+                width:70vw;
+            }
+            m
+            {
+                font-size: 6vw;
+            }
+            .a
+               {
+                  margin-top: 3px;
+            
+               }
+            .c
+            {
+                height: 4vh;
+                width: 55vw;
+                font-size: 1.5vh;
+                border:2.5px solid black;
+            }
+            i
+            {
+                font-size: 3vh;
+                margin-right:1.5vw;
+                margin-top: 3px;
+
+            }
+            .ab
+            {
+                margin-left:24vw;
+            }
+            .e
+            {
+                font-size: 2.5vw;
+                margin-top: 2vw;
+            }
+            .checkbox
+            {
+                margin-left:3vw;
+            }
+            button
+            {
+                height: 3.2vh;
+                width: 50vw;
+                font-size:3vw;
+            }
+            button:hover
+            {
+                height:4vh;
+                width:55vw;
+            }
+            .f
+            {
+                margin-top: 3vw;
+            }
+            .h
+            {
+                font-size: 2.7vw;
+                margin-top: 2.5vh;
+            }
+            .i
+            {
+                font-size: 3vw;
+                margin-top: 4vh;
+            }
+            .imggg{
+                height:7vw;
+                width: 7vw;
+            }
+            img:hover
+            {
+                height:8vw;
+                width:8vw;
+            }
+            .abc
+            {
+               margin-top: 1vw;
+            }
+            #eyeicon
+           {
+            font-size: 2vh;
+            margin-top:11px;
+           }
+          .q
+          {
+            margin-left: -5.3vw;
+            height:4vh;
+            width: 5.5vw;
+          }
+        }
+        @media (max-width:716px) 
+        {
+            #eyeicon
+           {
+            font-size: 1.7vh;
+            margin-top: 11px;
+           }
+           .q
+          {
+            margin-left: -5.7vw;
+            width: 6vw;
+          } 
+           
+        }
+        @media(max-width:528px)
+        {
+            #eyeicon
+            {
+                margin-top: 2vw;
+            }
+            .q
+          {
+            margin-left: -9vw;
+            width: 8vw;
+          }
+        }
+        @media(max-width:430px)
+        {
+            #eyeicon
+            {
+                
+                margin-top: 1vh;                
+            }
+            .q
+          {
+            margin-left: -8vw;
+            width: 8vw;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="image"><img src="freelancer 2.avif" alt=""id="imgg"></div>
+    <div class="form">
+        <form>
+            <div class="a"><m>LOGIN</m></div>
+            <div class="b"><i class="fa-solid fa-user"></i><input type="text" name="username" maxlength="30" placeholder=" Username" class="c"></div>
+            <div class="d"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"><i class="fa-solid fa-eye-slash" id="eyeicon"></div></i></div>
+            <div class="e"><input type="checkbox" name="p" class="checkbox">Remember me? <a href="" class="ab">Forgot password?</a></div>
+            <div class="f"><button ="submit">Login</div>
+            <div class="h">Don't have an account?<a href="Login Authentication 2.html" target="_new" class="hover">Register</a></div>
+            <div class="i"><b>Or Sign-up Using</b></div>
+            <div class="abc">
+             <a href="https://m.facebook.com" target="_new"><img src="facebook.png" alt="facebook" class="imggg"></a>
+                <a href="https://twitter.com" target="_new"><img src="twitter.png" alt="twitter" class="imggg"></a>
+                <a href="https://accounts.google.com" target="_new"><img src="google.avif" alt="google" class="imggg"></a>
+    
+            </div>
+        </form>
+    </div>
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+let password = document.getElementById("password");
+
+eyeicon.addEventListener("click", function() 
+{
+    if (password.type === "password") {
+        password.type = "text";
+        eyeicon.classList.remove("fa-eye-slash");
+        eyeicon.classList.add("fa-eye");
+    } else {
+        password.type = "password";
+       
+        eyeicon.classList.remove("fa-eye");
+        eyeicon.classList.add("fa-eye-slash");
+    }
+})
+    </script>
+</body>
+</html>
